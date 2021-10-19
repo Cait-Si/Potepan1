@@ -1,0 +1,456 @@
+@media screen and (min-width: 768px){
+  section {
+    display: block;
+  }
+
+  p {
+    font-size: 5px;
+  }
+  
+  ul {
+    margin: 0;
+  }
+
+  .reset {
+    margin: 0;
+    padding: 0;
+  }
+
+  .site-header {
+    width: 100%;
+    position: absolute;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+
+  .header-width {
+    width: 100%;
+    height: 40px;
+    margin: 0 8px;
+  }
+
+  .content-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navi-line {
+    display: flex;
+  }
+
+  .header-logo-pc {
+    height: 20px;
+    margin-left: 28px;
+  }
+
+  .header-logo-mv {
+    display: none;
+  }
+
+  .header-logo:hover {
+    opacity: 0.7;
+  }
+
+  .header-navi-item {
+    display: block;
+    padding-right: 46px;
+  }
+
+  .header-navi-item  a {
+    text-decoration: none;
+  }
+
+  .header-navi-item span {
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    color: black;
+    text-align:center;
+  }
+
+  .header-navi-item:hover {
+    opacity: 0.7;
+  }
+
+  .header-button {
+    padding: 13px 20px;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 20%/60%;
+    color: white;
+    background-color: orange;
+  }
+  
+  .navi-button {
+    display: none;
+  }
+
+  .top-view {
+    padding-top: 170px;
+    padding-bottom: 30px;
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/top-hero.png);
+    background-position: right 0;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+  }
+
+  .content-box {
+    max-width: 1140px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 auto;
+  }
+
+  .content-center {
+    display: flex;
+    align-items: center;
+  }
+
+  .content-left {
+    text-align: left;
+    max-width: 350px;
+    float: left;
+  }
+
+  .content-left p {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+
+  .orange {
+    color: orange;
+  }
+
+  .content-button {
+    padding: 20px 100px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10%/60%;
+    color: white;
+    background-color: orange;
+  }
+
+  .content-right {
+    float: left;
+  }
+  
+  .content-right img {
+    width: 154px;
+    height: 154px;
+  }
+
+  .content-logo {
+    height: 37px;
+  }
+
+  .annotation {
+    font-size: 5px;
+    padding-top: 150px;
+    max-width: 512px;
+    clear: both;
+  }
+
+  .potepan {
+    width: 100%;
+    background-color: orange;
+    color: white;
+    padding: 50px 0; 
+  }
+  
+  .potepan-content-box {
+    max-width: 1140px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 auto;
+  }
+  
+  .content-potepan {
+    text-align: left;
+    max-width: 550px;
+  }
+
+  .content-potepan h1 {
+    margin: 0;
+    font-size: 45px;
+  }
+
+  .content-potepan p {
+    font-size: 14px;
+    line-height: 1.9;
+  }
+
+  .flow-button {
+    padding: 8px 80px;
+    border-radius: 10%/60%;
+    background-color: white;
+    text-align: center;
+  }
+
+  .flow-button a {
+    text-decoration: none;
+    color: orange;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .button-hover:hover {
+    opacity: 0.7;
+  }
+}
+
+@media screen and (max-width: 767px){
+   section {
+    display: block;
+  }
+
+  p {
+    font-size: 5px;
+  }
+
+  .reset {
+    margin: 0;
+    padding: 0;
+  }
+
+  .site-header {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .header-width {
+    max-width: 100%;
+    margin: 0 20px;
+  }
+
+  .content-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navi {
+    display: none;
+  }
+
+  .navi-line {
+    display: none;
+  }
+  
+  .header-logo-pc {
+    display: none;
+  }
+
+  .header-logo-mv {
+    height: 16px;
+  }
+
+  .header-logo:hover {
+    opacity: 0.7;
+  }
+
+  .header-navi-item {
+    display: block;
+  }
+
+  .header-navi-item  a {
+    text-decoration: none;
+  }
+
+  .header-navi-item span {
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    color: black;
+    text-align:center;
+  }
+
+  .header-navi-item:hover {
+    opacity: 0.7;
+  }
+
+  .header-button {
+    padding: 5px 8px;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 20%/60%;
+    color: white;
+    background-color: orange;
+  }
+  
+  .navi-button {
+    display: none;
+  }
+  
+  .navi-hanger {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+  }
+  
+  .navi-button:checked ~ .navi {
+    display: none;
+    position: relative;
+    background-color: gray;
+  }
+  
+  .icon {
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    border-radius: 2px;
+    top: 11px;
+  }
+  
+  .icon:first-child {
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    border-radius: 2px;
+    top: 0;
+  }
+  
+  .icon:last-child {
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    border-radius: 2px;
+    top: 22px;
+  }
+  
+  .navi-button:checked + label > .icon:nth-of-type(2) {
+    transform: translate(20px);
+    opacity: 0;
+  }
+  
+  .navi-button:checked + label > .icon:first-child {
+    top: 50%;
+    transform: translate(0, -50%) rotate(45deg);
+  }
+  
+  .navi-button:checked + label > .icon:last-child {
+    top: 50%;
+    transform: translate(0, -50%) rotate(-45deg);
+  }
+
+  .top-view {
+    background-image: url(	https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/top-hero-sp.png);
+    background-position: right 0;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+  }
+
+  .content-box {
+    max-width: none;
+    padding: 240px 20px 10px 20px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .content-center {
+    display: block;
+    align-items: center;
+  }
+
+  .content-left {
+    max-width: 280px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .content-left p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .orange {
+    color: orange;
+  }
+
+  .content-button {
+    padding: 20px 40px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10%/60%;
+    color: white;
+    background-color: orange;
+  }
+
+  .content-right {
+    position: absolute;
+    top: 157px;
+    left: 40px;
+  }
+  
+  .content-right img {
+    width: 88px;
+    height: 88px;
+  }
+
+  .content-logo {
+    height: 27px;
+  }
+
+  .annotation {
+    font-size: 5px;
+    padding-top: 40px;
+    max-width: 512px;
+  }
+
+  .potepan {
+    width: 100%;
+    background-color: orange;
+    color: white;
+    padding: 50px 0; 
+  }
+  
+  .potepan-content-box {
+    max-width:  none;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 0 auto;
+  }
+
+  .content-potepan {
+    text-align: left;
+    max-width: 550px;
+  }
+
+  .content-potepan h1 {
+    margin: 0;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .content-potepan p {
+    font-size: 14px;
+    line-height: 1.9;
+  }
+
+  .flow-button {
+    padding: 8px 70px;
+    border-radius: 10%/60%;
+    background-color: white;
+    text-align: center;
+  }
+
+  .flow-button a {
+    text-decoration: none;
+    color: orange;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .button-hover:hover {
+    opacity: 0.7;
+  }
+}
